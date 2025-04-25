@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'ONE PIECE MANGA FONT';
+    font-style: normal;
+    font-weight: normal;
+    src: local('ONE PIECE MANGA FONT'), url('src/Containers/one piece font.ttf') format('truetype');
+}
+
+h1{
+    font-family: 'ONE PIECE MANGA FONT';
+    color: #0ccac4;
+}

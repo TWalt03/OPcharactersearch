@@ -7,29 +7,21 @@
 
 h1{
     font-family: 'ONE PIECE MANGA FONT';
-    color: gold;
 }
 
-.link{
-    text-decoration: none;
+.gold-outline{
+    color: gold;
+    text-shadow: -2px -2px 0 #000,2px -2px 0 #000,-2px 2px 0 #000,2px 2px 0 #000;
 }
-.button2{
+
+.button1{
     font-family: 'ONE PIECE MANGA FONT';
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    color: gold;
+    
     font-size:x-large;
     font-weight: bold;
-    width: 10%;
+    width: 50%;
     height: 4rem;
     background-color: black;
     border: transparent;
-    text-decoration: none;
-}
-.name{
-    color: red;
-}
-
-.name1{
-    font-family: 'ONE PIECE MANGA FONT';
 }

@@ -1,5 +1,5 @@
 import React from 'react';
-
+import './Card.css'
  
 function formatBounty(bounty) {
     if(bounty === null || bounty === undefined || bounty === ''){
@@ -17,12 +17,12 @@ function Job(job) {
 const Card = (props) => {
     const { name, job, bounty } = props;
     return(
-        <div className='tc grow bg-light-green br3 pa3 ma2 dib bw2 shadow-5'>
+        <div className='bounty tc grow br3 pa3 ma2 dib bw2 shadow-5'>
           
             <div>
-                <h1 className='f2 ttu tracked'>{name}</h1>
-                <h2 className='f4 lh-copy'>{formatBounty(bounty)}</h2>
-                 <p className='f4 lh-copy'>{Job(job)}</p>
+                <h1 className='name f1 ttu tracked'>{name}</h1>
+                <h2 className='name1 f2 lh-copy'>{formatBounty(bounty)}</h2>
+                 <p className='name1 f2 lh-copy'>{Job(job)}</p>
             </div>
         </div>
     );

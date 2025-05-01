@@ -1,8 +1,7 @@
 import React from 'react';
-import ParticlesBg from 'particles-bg';
 import { Link } from 'react-router-dom';
-import 'tachyons';
 import './Home.css';
+import 'tachyons';
 
 
 function Home() {

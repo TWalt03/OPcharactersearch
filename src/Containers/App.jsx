@@ -1,13 +1,10 @@
 import React, {useState, useEffect} from 'react';
-import ParticlesBg from 'particles-bg';
 import CardList from '../Components/CardList';
-import Card from '../Components/Card';
 import SearchBox from '../Components/SearchBox';
 import Scroll from '../Components/Scroll';
-import 'tachyons';
 import './App.css'
+import 'tachyons';
 import { Link } from 'react-router-dom';
-
 
 function App(){
     const [characters, setCharacters] = useState([]);
@@ -33,7 +30,7 @@ function App(){
       ) : (
         <div className="tc">
           
-          <Link to='/' className='link'>
+          <Link to='/info' className='link'>
             <button className='red button2 '>Exit</button>
           </Link>
           <h1 className="gold-outline f-headline lh-solid">One Piece Characters</h1>

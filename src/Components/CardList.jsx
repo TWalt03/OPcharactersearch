@@ -5,13 +5,13 @@ const CardList = ({characters}) =>{
     return(
         <div>
             {
-                characters.map((user, i) => {
+                characters.map((character) => {
                     return(<Card
-                        key = {i}
-                        name = {characters[i].name}
-                        bounty = {characters[i].bounty}
-                        // fruit = {characters[i].fruit.name}
-                        job = {characters[i].job}
+                        key = {character.id}
+                        id = {character.id}
+                        name = {character.name}
+                        bounty = {character.bounty}
+                        job = {character.job}
                         />
                     )
                 })

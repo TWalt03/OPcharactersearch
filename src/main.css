@@ -18,7 +18,7 @@
     align-items: center;
     min-width: 320px;
     min-height: 100vh;
-    background-image: url(src/Containers/opback.jpg);
+    background-image: url(src/Containers/Assets/opback.jpg);
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
@@ -29,7 +29,7 @@
     font-family: 'ONE PIECE MANGA FONT';
     font-style: normal;
     font-weight: normal;
-    src: local('ONE PIECE MANGA FONT'), url('src/Containers/one piece font.ttf') format('truetype');
+    src: local('ONE PIECE MANGA FONT'), url('src/Containers/Assets/one piece font.ttf') format('truetype');
 }
 
 h1{
